@@ -1,0 +1,44 @@
+{
+  "name": "Syazani Printing",
+  "short_name": "Syazani",
+  "description": "Aplikasi manajemen usaha fotocopy - kas, layanan, stok, dan laporan bulanan",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "id",
+  "id": "com.syazaniprinting.app",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Catat Layanan",
+      "short_name": "Layanan",
+      "description": "Langsung ke menu layanan & cetak",
+      "url": "./?page=layanan",
+      "icons": [{ "src": "icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Cek Stok",
+      "short_name": "Stok",
+      "description": "Cek stok bahan",
+      "url": "./?page=stok",
+      "icons": [{ "src": "icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
